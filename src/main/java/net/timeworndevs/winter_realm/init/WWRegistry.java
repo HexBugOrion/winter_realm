@@ -20,5 +20,4 @@ public class WWRegistry {
     public static <B extends Block> B register(String name, B block) {
         return Registry.register(Registries.BLOCK, new Identifier(Main.MODID, name), block);
     }
-
 }
